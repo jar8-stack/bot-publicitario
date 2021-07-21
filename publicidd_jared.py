@@ -122,6 +122,7 @@ for j in range(10):
             print(" ")
         except:
             print("Ocurrio un error con el grupo " + str(i) + ". Link: " + link)
+        driver.quit()
     time.sleep(1800)
 
 print("Se logró publicar en " + str(cantidad_lograda) + "/" + str(len(grupos)) + " grupos.")
