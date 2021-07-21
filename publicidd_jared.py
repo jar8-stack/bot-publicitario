@@ -21,7 +21,7 @@ for j in range(10):
     driver.get("https://www.facebook.com")
 
     driver.maximize_window()
-
+                
     time.sleep(1)
 
     userName= driver.find_element_by_name("email")
@@ -89,7 +89,7 @@ for j in range(10):
 
 
             
-            time.sleep(2)
+            time.sleep(7)
             print("Writing post\n")
 
             pyperclip.copy(mensaje)
@@ -98,7 +98,7 @@ for j in range(10):
             #pyautogui.typewrite(mensaje)
             
 
-            time.sleep(4)
+            time.sleep(7)
 
             for i in range(9):
                 pyautogui.keyDown('tab')
