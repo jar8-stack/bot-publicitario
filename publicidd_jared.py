@@ -61,7 +61,7 @@ for j in range(10):
             print("Waiting for 45 seconds\n")
             time.sleep(25)
 
-            if link == "https://www.facebook.com/groups/1210601969007059" or link== "https://www.facebook.com/groups/834450273373156" or link== "https://www.facebook.com/groups/747410515709877" or link=="https://www.facebook.com/groups/382819609621203": 
+            if link == "https://www.facebook.com/groups/1210601969007059" or link== "https://www.facebook.com/groups/747410515709877" or link=="https://www.facebook.com/groups/382819609621203": 
 
                 for i in range(22):
                     pyautogui.keyDown('tab')
@@ -70,7 +70,7 @@ for j in range(10):
                 pyautogui.keyDown('enter')
                 pyautogui.keyUp('enter')
 
-            elif link=="https://www.facebook.com/groups/785296869067527" or link== "https://www.facebook.com/groups/834450273373156" :
+            elif link=="https://www.facebook.com/groups/785296869067527" :
                 for i in range(20):
                     pyautogui.keyDown('tab')
                     pyautogui.keyUp('tab') 
