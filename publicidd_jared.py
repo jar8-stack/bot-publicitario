@@ -33,7 +33,7 @@ for j in range(10):
     time.sleep(1)
 
 
-    grupos= ["https://www.facebook.com/groups/940754222633449", "https://www.facebook.com/groups/1414974468704256", "https://www.facebook.com/groups/1210601969007059", "https://www.facebook.com/groups/834450273373156", "https://www.facebook.com/groups/747410515709877", "https://www.facebook.com/groups/382819609621203", "https://www.facebook.com/groups/785296869067527", "https://www.facebook.com/groups/662218077984422"]
+    grupos= ["https://www.facebook.com/groups/940754222633449", "https://www.facebook.com/groups/1414974468704256", "https://www.facebook.com/groups/1210601969007059", "https://www.facebook.com/groups/834450273373156", "https://www.facebook.com/groups/747410515709877", "https://www.facebook.com/groups/382819609621203", "https://www.facebook.com/groups/785296869067527", "https://www.facebook.com/groups/662218077984422", "https://www.facebook.com/groups/763305700996162"]
 
     mensaje= "Solicitamos ⚠️NUEVOS CHOFERES⚠️ PARA UBER $500 al día SIN AUTO (se te asigna uno 🚙) SOLO whatsapp 9993-90-9391"
     
