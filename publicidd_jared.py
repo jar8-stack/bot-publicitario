@@ -70,7 +70,7 @@ for j in range(10):
                 pyautogui.keyDown('enter')
                 pyautogui.keyUp('enter')
 
-            elif link=="https://www.facebook.com/groups/785296869067527":
+            elif link=="https://www.facebook.com/groups/785296869067527" or link== "https://www.facebook.com/groups/834450273373156" :
                 for i in range(20):
                     pyautogui.keyDown('tab')
                     pyautogui.keyUp('tab') 
