@@ -8,15 +8,15 @@ import pyperclip
 
 
 
-for j in range(21): 
+for j in range(10): 
     
 
-    driver= webdriver.Chrome(executable_path="drivers/chromedriver.exe")
+    driver= webdriver.Chrome(executable_path="chromedriver.exe")
 
     chrome_options = webdriver.ChromeOptions()
     prefs = {"profile.default_content_setting_values.notifications" : 2}
     chrome_options.add_experimental_option("prefs",prefs)
-    driver = webdriver.Chrome(executable_path="drivers/chromedriver.exe", chrome_options=chrome_options)
+    driver = webdriver.Chrome(executable_path="chromedriver.exe", chrome_options=chrome_options)
 
     driver.get("https://www.facebook.com")
 
