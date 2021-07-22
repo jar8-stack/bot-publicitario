@@ -64,13 +64,21 @@ for j in range(7):
             print("Waiting for 45 seconds\n")
             time.sleep(25)
 
-            
-            for i in range(24):
+            if link== "https://www.facebook.com/groups/577585325647789":
+                for i in range(23):
                 pyautogui.keyDown('tab')
                 pyautogui.keyUp('tab') 
 
-            pyautogui.keyDown('enter')
-            pyautogui.keyUp('enter')
+                pyautogui.keyDown('enter')
+                pyautogui.keyUp('enter')
+            else:
+            
+                for i in range(24):
+                    pyautogui.keyDown('tab')
+                    pyautogui.keyUp('tab') 
+
+                pyautogui.keyDown('enter')
+                pyautogui.keyUp('enter')
 
 
 
