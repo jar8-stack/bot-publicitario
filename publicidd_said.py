@@ -11,13 +11,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 #driver = webdriver.Chrome(ChromeDriverManager().install())
 
 
-<<<<<<< HEAD
 for j in range(7): 
     grupos= ["https://www.facebook.com/groups/vecinosciudadcaucel", "https://www.facebook.com/groups/834450273373156", "https://www.facebook.com/groups/790247394386215", "https://www.facebook.com/groups/577585325647789", "https://www.facebook.com/groups/725543860895039", "https://www.facebook.com/groups/1219062938160519", "https://www.facebook.com/groups/747410515709877"]
-=======
-for j in range(21): 
-    #grupos= ["https://www.facebook.com/groups/vecinosciudadcaucel", "https://www.facebook.com/groups/834450273373156", "https://www.facebook.com/groups/790247394386215", "https://www.facebook.com/groups/577585325647789", "https://www.facebook.com/groups/725543860895039", "https://www.facebook.com/groups/1219062938160519", "https://www.facebook.com/groups/747410515709877"]
->>>>>>> dea04d445da945e17b8a59e5995aa3b0a6caa11b
 
     driver= webdriver.Chrome(executable_path="chromedriver.exe")
 
