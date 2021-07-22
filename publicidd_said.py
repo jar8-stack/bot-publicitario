@@ -1,4 +1,4 @@
-from selenium import webdriver
+﻿from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
@@ -11,7 +11,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 #driver = webdriver.Chrome(ChromeDriverManager().install())
 
 
-for j in range(21): 
+for j in range(7): 
     grupos= ["https://www.facebook.com/groups/vecinosciudadcaucel", "https://www.facebook.com/groups/834450273373156", "https://www.facebook.com/groups/790247394386215", "https://www.facebook.com/groups/577585325647789", "https://www.facebook.com/groups/725543860895039", "https://www.facebook.com/groups/1219062938160519", "https://www.facebook.com/groups/747410515709877"]
 
     driver= webdriver.Chrome(executable_path="chromedriver.exe")
