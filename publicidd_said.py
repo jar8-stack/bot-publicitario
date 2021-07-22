@@ -12,7 +12,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 for j in range(21): 
-    grupos= ["https://www.facebook.com/groups/vecinosciudadcaucel", "https://www.facebook.com/groups/834450273373156", "https://www.facebook.com/groups/790247394386215", "https://www.facebook.com/groups/577585325647789", "https://www.facebook.com/groups/725543860895039", "https://www.facebook.com/groups/1219062938160519", "https://www.facebook.com/groups/747410515709877"]
+    #grupos= ["https://www.facebook.com/groups/vecinosciudadcaucel", "https://www.facebook.com/groups/834450273373156", "https://www.facebook.com/groups/790247394386215", "https://www.facebook.com/groups/577585325647789", "https://www.facebook.com/groups/725543860895039", "https://www.facebook.com/groups/1219062938160519", "https://www.facebook.com/groups/747410515709877"]
 
     driver= webdriver.Chrome(executable_path="chromedriver.exe")
 
@@ -64,7 +64,7 @@ for j in range(21):
             print("Waiting for 45 seconds\n")
             time.sleep(25)
 
-            if link== "https://www.facebook.com/groups/577585325647789" or link=="https://www.facebook.com/groups/1219062938160519":
+            if link== "https://www.facebook.com/groups/577585325647789" or link=="https://www.facebook.com/groups/1219062938160519" or link=="https://www.facebook.com/groups/173443696161082":
                 for i in range(23):
                     pyautogui.keyDown('tab')
                     pyautogui.keyUp('tab') 
