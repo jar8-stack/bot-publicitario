@@ -66,8 +66,8 @@ for j in range(21):
 
             if link== "https://www.facebook.com/groups/577585325647789":
                 for i in range(23):
-                pyautogui.keyDown('tab')
-                pyautogui.keyUp('tab') 
+                    pyautogui.keyDown('tab')
+                    pyautogui.keyUp('tab') 
 
                 pyautogui.keyDown('enter')
                 pyautogui.keyUp('enter')
