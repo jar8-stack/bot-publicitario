@@ -64,7 +64,7 @@ for j in range(21):
             print("Waiting for 45 seconds\n")
             time.sleep(25)
 
-            if link== "https://www.facebook.com/groups/577585325647789":
+            if link== "https://www.facebook.com/groups/577585325647789" or link=="https://www.facebook.com/groups/1219062938160519":
                 for i in range(23):
                     pyautogui.keyDown('tab')
                     pyautogui.keyUp('tab') 
