@@ -84,7 +84,7 @@ for j in range(21):
 
 
             
-            time.sleep(2)
+            time.sleep(7)
             print("Writing post\n")
 
             pyperclip.copy(mensaje)
@@ -93,7 +93,7 @@ for j in range(21):
             #pyautogui.typewrite(mensaje)
             
 
-            time.sleep(4)
+            time.sleep(7)
 
             for i in range(9):
                 pyautogui.keyDown('tab')
