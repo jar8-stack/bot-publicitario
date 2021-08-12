@@ -123,7 +123,7 @@ for j in range(5):
 
             time.sleep(7)
 
-            pyautogui.keyDown('mayus')
+            pyautogui.keyDown('shift')
 
             time.sleep(7)
 
@@ -131,7 +131,7 @@ for j in range(5):
                 pyautogui.keyDown('tab')
                 pyautogui.keyUp('tab') 
 
-            pyautogui.keyUp('mayus')
+            pyautogui.keyUp('shift')
 
             pyautogui.keyDown('enter')
             pyautogui.keyUp('enter')
