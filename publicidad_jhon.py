@@ -31,8 +31,8 @@ for j in range(5):
     password= driver.find_element_by_name("pass")
 
 
-    userName.send_keys("georgedelaselva1999@hotmail.com")
-    password.send_keys("Serranosoto2" + Keys.ENTER)
+    userName.send_keys("9993572921")
+    password.send_keys("Serranosoto1" + Keys.ENTER)
     time.sleep(1)
 
 
