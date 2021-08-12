@@ -123,9 +123,15 @@ for j in range(5):
 
             time.sleep(7)
 
-            for i in range(9):
+            pyautogui.keyDown('mayus')
+
+            time.sleep(7)
+
+            for i in range(3):
                 pyautogui.keyDown('tab')
                 pyautogui.keyUp('tab') 
+
+            pyautogui.keyUp('mayus')
 
             pyautogui.keyDown('enter')
             pyautogui.keyUp('enter')
